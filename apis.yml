@@ -1,0 +1,32 @@
+aid: penguin-publishing
+name: Penguin Publishing
+description: "Books, book covers and related data"
+url: http://www.penguinrandomhouse.biz/webservices/rest/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Books"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Books
+  - Public APIs
+apis:
+  - name: Penguin Publishing
+    description: "Books, book covers and related data"
+    humanURL: http://www.penguinrandomhouse.biz/webservices/rest/
+    baseURL: http://www.penguinrandomhouse.biz/webservices/rest/
+    tags:
+      - Books
+    properties:
+      - type: Documentation
+        url: http://www.penguinrandomhouse.biz/webservices/rest/
+common:
+  - type: Website
+    url: http://www.penguinrandomhouse.biz/webservices/rest/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
