@@ -39,7 +39,6 @@ apis:
   - name: Penguin Publishing
     description: "Books, book covers and related data"
     humanURL: http://www.penguinrandomhouse.biz/webservices/rest/
-    baseURL: http://www.penguinrandomhouse.biz/webservices/rest/
     tags:
       - Books
     properties:
